@@ -10,7 +10,7 @@ only the Bybit order book? And does it survive trading costs?
 | What | Where |
 |---|---|
 | Raw Bybit book (read only) | `/scratch/network/an8303/crypto_project/orderbook_data/bybit/<COIN>/<day>.parquet`: top 5 levels, every second |
-| Our data | `/scratch/network/an8303/fin516/data` (`data/` here is a link to it), about 8 GB |
+| Our data | `/scratch/network/an8303/fin516/data` (`data/` here is a link to it), about 12 GB |
 | Python env | `/scratch/network/an8303/fin516/venv` (anaconda3/2025.12 + lightgbm + torch CPU) |
 
 ```
