@@ -1,5 +1,5 @@
 #!/bin/bash
-# Steps 1-3a: features from the raw book (one process per coin), the train/val/test tables,
+# Steps 1-3a: features from the raw book (one process per coin), the train/val/test tables, the data summary,
 # and the linear models (a few minutes).
 #   sbatch slurm/data.sbatch
 #SBATCH --job-name=fin516-data
@@ -15,4 +15,5 @@ PY=/scratch/network/an8303/fin516/venv/bin/python
 
 $PY features.py
 $PY dataset.py
+$PY describe.py
 $PY linear.py
